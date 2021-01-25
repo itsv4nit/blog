@@ -1,0 +1,67 @@
+baseURL = "https://itsv4nit.github.io/"
+disqusShortname = "sicily-hugo-theme"
+googleAnalytics = ""
+languageCode = "en-us"
+languageName = "En"
+paginate = "10"
+summaryLength = "15"
+theme = "Sicily-hugo-theme"
+title = "Vinit Singh"
+[markup.goldmark.renderer]
+unsafe = true
+
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 3
+
+
+[params]
+author = "Vinit Singh"
+contact_form_action = "https://formspree.io/f/moqprynk"
+description = "Offical WebPage of Vinit Singh"
+logo = "images/logo.png"
+logo_width = "200px"
+[params.company]
+address = "Khandari"
+city = "Agra, Uttar Pradesh"
+country = "India"
+email = "itsv4nit@gmail.com"
+phone = "+91 97956 46309"
+[params.navigation_button]
+enable = true
+label = "Get in touch"
+link = "contact"
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/custom/clean-footer.css"
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[params.preloader]
+enable = true
+preloader = ""
+[[params.social]]
+icon = "ti-facebook"
+link = "https://www.facebook.com/itsv4nit/"
+title = "facebook"
+[[params.social]]
+icon = "ti-twitter-alt"
+link = "https://twitter.com/itsv4nit"
+title = "twitter"
+[[params.social]]
+icon = "ti-instagram-alt"
+link = "https://www.instagram.com/itsv4nit/"
+title = "instagram"
+[[params.social]]
+icon = "ti-linkedin"
+link = "https://www.linkedin.com/in/itsv4nit/"
+title = "linkedin"
